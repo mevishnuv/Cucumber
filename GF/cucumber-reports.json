@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T05:06:35.082Z",
+        "line": 3,
+        "name": "Successful Login",
+        "description": "",
+        "id": "login;successful-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1252700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i Enter the username",
+            "match": {
+              "location": "Login.i_Enter_the_username()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i Enter the password",
+            "match": {
+              "location": "Login.i_Enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on Login button",
+            "match": {
+              "location": "Login.i_click_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "Login.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:p1/Login.feature",
+    "tags": []
+  }
+]
